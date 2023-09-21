@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Musical Player Instrument</title>
+</head>
+<body>
+    <!-- navigation bar -->
+    <nav>
+        <!-- logo at header -->
+        <ul>
+            <li class="brand"><img src="logo3.jpg" alt="Spotify">My Music</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <!-- <h1>Best of NCS - No copyright sound</h1> -->
+            <h1>Music Lists - Hope you enjoy it</h1>
+            <div class="SongItemContainer">
+                <div class="songItems">
+                    <img  alt="1" srcset="">
+                    <span class="songname"> <!--krishna flute--> </span>
+                    <span class="songListPlay"><span class="timestamp">05:00<i id="0" class="fa-solid songItemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img  alt="1" srcset="">
+                    <span class="songname"> <!--K thank you flute--> </span>
+                    <span class="songListPlay"><span class="timestamp">05:00<i class="fa-solid songItemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img  alt="1" srcset="">
+                    <span class="songname"><!--Tumse Hi - Instrument--> </span>
+                    <span class="songListPlay"><span class="timestamp">05:00<i id="2" class="fa-solid songItemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="logos1.jpg" alt="1" srcset="">
+                    <span class="songname"> <!--Om mantra--> </span>
+                    <span class="songListPlay"><span class="timestamp">05:00<i id="3" class="fa-solid songItemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img  alt="1" srcset="">
+                    <span class="songname"> <!--Khairiyat-pucho--> </span>
+                    <span class="songListPlay"><span class="timestamp">05:00<i id="4" class="fa-solid songItemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="logos1.jpg" alt="1" srcset="">
+                    <span class="songname"> <!--Doremon--> </span>
+                    <span class="songListPlay"><span class="timestamp">05:00<i id="5" class="fa-solid songItemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img  alt="1" srcset="">
+                    <span class="songname"> <!--Gurbani--> </span>
+                    <span class="songListPlay"><span class="timestamp">05:00<i id="6" class="fa-solid songItemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="logos1.jpg" alt="1" srcset="">
+                    <span class="songname"> <!--krishna flute--> </span>
+                    <span class="songListPlay"><span class="timestamp">05:00<i id="7" class="fa-solid songItemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img  alt="1" srcset="">
+                    <span class="songname"> <!--krishna flute--> </span>
+                    <span class="songListPlay"><span class="timestamp">05:00<i id="8" class="fa-solid songItemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="logos1.jpg" alt="1" srcset="">
+                    <span class="songname"> <!--krishna flute--> </span>
+                    <span class="songListPlay"><span class="timestamp">05:00<i id="9" class="fa-solid songItemplay fa-circle-play"></i></span></span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+              <!-- fontawesome icons -->
+              <!-- <i class="fa-solid fa-backward" id="" ></i> -->
+              <i class="fa-solid fa-backward-step" id="previous"></i>
+              <i class="fa-solid fa-circle-play" id="masterPlay"></i>
+              <!-- <i class="fa-solid fa-circle-pause"></i> -->
+              <i class="fa-solid fa-forward-step" id="next" ></i>
+              <!-- <i class="fa-solid fa-forward-fast" id=""></i> -->
+        </div>
+        <div class="SongInfo">
+            <img src="dance-music.gif" width="50px" alt="Enjoy the Music" id="gif" srcset=""> <span id="masterSongName"></span>
+        </div>
+        <div class="SongInfog">
+            <img src="mocha-cute.gif" width="50px" alt="Enjoy the Music" id="gif srcset="">
+        </div>
+    </div>
+
+    <!-- include new font awesome -->
+    <script src="https://kit.fontawesome.com/7b99f4a516.js" crossorigin="anonymous"></script></script>
+    <script src="Player.js"></script>
+</body>
+</html> 
